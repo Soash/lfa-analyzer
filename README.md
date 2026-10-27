@@ -1,4 +1,4 @@
-# LFA-Analyzer: Interactive Computer Vision and Densitometry Suite for Lateral Flow Immunoassay Quantification
+# LFA-Analyzer: Interactive Computer Vision and Densitometry Suite for Lateral Flow Assay Quantification
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![GUI-Tkinter](https://img.shields.io/badge/GUI-Tkinter-blue.svg?style=flat-square)](https://docs.python.org/3/library/tkinter.html)
@@ -10,7 +10,7 @@
 
 ## 1. Abstract and Analytical Overview
 
-Lateral Flow Immunoassays (LFAs) represent one of the most widely deployed point-of-care (PoC) diagnostic platforms across clinical, veterinary, food safety, and environmental domains. Although traditionally deployed as qualitative binary (yes/no) readout devices, there is an increasing demand for objective, semi-quantitative, and fully quantitative diagnostic evaluations. Variable ambient illumination, phone camera perspective distortions, strip misalignment inside cassette windows, and non-uniform nitrocellulose background coloration frequently compromise photometric reproducibility.
+Lateral Flow Assays (LFAs) represent one of the most widely deployed point-of-care (PoC) diagnostic platforms across clinical, veterinary, food safety, and environmental domains. Although traditionally deployed as qualitative binary (yes/no) readout devices, there is an increasing demand for objective, semi-quantitative, and fully quantitative diagnostic evaluations. Variable ambient illumination, phone camera perspective distortions, strip misalignment inside cassette windows, and non-uniform nitrocellulose background coloration frequently compromise photometric reproducibility.
 
 **LFA-Analyzer** is an open-source, specialized computer vision and analytical densitometry framework engineered to transform qualitative LFA strips into rigorous, background-subtracted optical density measurements. The analytical pipeline couples:
 1. **Planar Homography Rectification (`Four_Point_Crop.py`)**: An ImageJ/Fiji Jython plugin utilizing 2D projective transformation matrices to correct perspective distortion, tilt, and optical skew, isolating the active test membrane into a standardized, rectangular image matrix.
